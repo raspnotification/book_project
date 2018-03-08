@@ -15,8 +15,8 @@
 <body>
     <!--=========== HEADER ==========-->
     <!-- Carousel -->
-    <header class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="container-fluid">
+        <header id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 img-fluid" src="http://res.cloudinary.com/dlfnke6kc/image/upload/v1520499611/wild-code-school-orle%CC%81ans-hackathon1900x700_qsztsz.jpg" alt="Wild code school">
@@ -41,10 +41,11 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </header>
+        <!--=========== CONTENT ==========-->
+        <div class="row justify-content-around">
+            <h2>Les Formateurs</h2>
         </div>
-    </header>
-    <!--=========== CONTENT ==========-->
-    <div class="container-fluid">
         <!--LIGNE 1 -->
         <div class="row justify-content-around">
             <div class="col-12 col-sm-6 col-md-3">
@@ -64,9 +65,9 @@
                             <!--=========== MODAL WINDOWS ==========-->
                             <div class="container">
                                 <!-- Button to Open the Modal -->
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Voir plus</button>
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-1">Voir plus</button>
                                 <!-- The Modal -->
-                                <div class="modal fade myModal">
+                                <div class="modal fade" id="myModal-1">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <!-- Modal Header -->
@@ -128,68 +129,68 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
-                        </div>
-                        <!--=========== MODAL WINDOWS ==========-->
-                        <div class="container">
-                            <!-- Button to Open the Modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Voir plus</button>
-                            <!-- The Modal -->
-                            <div class="modal fade myModal">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Description</h4>
-                                        </div>
-                                        <!-- Modal body -->
-                                        <div class="modal-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
-                                            varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu
-                                            arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-2">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-2">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
 
-                                        </div>
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Son côté Wild</h4>
-                                        </div>
-                                        <!-- Modal body -->
-                                        <div class="modal-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
-                                            varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu
-                                            arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
 
-                                        </div>
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Pour l'avenir</h4>
-                                        </div>
-                                        <!-- Modal body -->
-                                        <div class="modal-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
-                                            varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu
-                                            arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
 
-                                        </div>
-                                        <!-- Modal footer -->
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
-                        <!--=========== END MODAL WINDOWS ==========-->
                     </div>
+                    <!--FIN INDIVIDUAL CONTENT -->
                 </div>
-                <!--FIN INDIVIDUAL CONTENT -->
             </div>
         </div>
         <!-- END LIGNE -->
-    </div>
-    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <h2>Les Wilders</h2>
+        </div>
         <!--LIGNE 2 -->
         <div class="row justify-content-around">
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -202,14 +203,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-3">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-3">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -222,14 +270,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-4">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-4">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -242,7 +337,54 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-5">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-5">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
@@ -253,7 +395,7 @@
         <!--LIGNE 3 -->
         <div class="row justify-content-around">
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -266,14 +408,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-6">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-6">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -286,14 +475,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-7">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-7">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -306,7 +542,54 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-8">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-8">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
@@ -317,7 +600,7 @@
         <!--LIGNE 4 -->
         <div class="row justify-content-around">
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -330,14 +613,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-9">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-9">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -350,14 +680,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-10">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-10">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -370,7 +747,54 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-11">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-11">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
@@ -381,7 +805,7 @@
         <!--LIGNE 5 -->
         <div class="row justify-content-around">
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -394,14 +818,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-12">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-12">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -414,14 +885,61 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-13">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-13">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
+                <div class="card">
                     <!--INDIVIDUAL CONTENT -->
                     <div class="row justify-content-around">
                         <div class="col-6 d-flex align-items-center justify-content-center">
@@ -434,7 +952,54 @@
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                                 <a href="#"><i class="fab fa-github h3"></i></a>
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <!--=========== MODAL WINDOWS ==========-->
+                            <div class="container">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-14">Voir plus</button>
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal-14">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Description</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Son côté Wild</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Pour l'avenir</h4>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=========== END MODAL WINDOWS ==========-->
                         </div>
                     </div>
                     <!--FIN INDIVIDUAL CONTENT -->
@@ -443,53 +1008,147 @@
         </div>
         <!-- END LIGNE -->
         <!--LIGNE 6 -->
-        <div class="row justify-content-around">
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <!--INDIVIDUAL CONTENT -->
-                    <div class="row justify-content-around">
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <img src="http://via.placeholder.com/120x120" class="rounded-circle img-fluid avatar" alt="#" />
-                        </div>
-                        <div class="col-6">
-                            <div><strong class="h2">Anahita</strong></div>
-                            <div><small class="h3">3 mots</small></div>
-                            <div>
-                                <a href="#"><i class="fab fa-github h3"></i></a>
-                                <a href="#"><i class="fab fa-github h3"></i></a>
+        <div class="container-fluid">
+            <!--LIGNE 1 -->
+            <div class="row justify-content-around">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <!--INDIVIDUAL CONTENT -->
+                        <div class="row justify-content-around">
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <img src="http://via.placeholder.com/120x120" class="rounded-circle img-fluid avatar" alt="#" />
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <div class="col-6">
+                                <div><strong class="h2">Anahita</strong></div>
+                                <div><small class="h3">3 mots</small></div>
+                                <div>
+                                    <a href="#"><i class="fab fa-github h3"></i></a>
+                                    <a href="#"><i class="fab fa-github h3"></i></a>
+                                </div>
+                                <!--=========== MODAL WINDOWS ==========-->
+                                <div class="container">
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-15">Voir plus</button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myModal-15">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Description</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Son côté Wild</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Pour l'avenir</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--=========== END MODAL WINDOWS ==========-->
+                            </div>
                         </div>
+                        <!--FIN INDIVIDUAL CONTENT -->
                     </div>
-                    <!--FIN INDIVIDUAL CONTENT -->
                 </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <!--INDIVIDUAL CONTENT -->
-                    <div class="row justify-content-around">
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <img src="http://via.placeholder.com/120x120" class="rounded-circle img-fluid avatar" alt="#" />
-                        </div>
-                        <div class="col-6">
-                            <div><strong class="h2">Anahita</strong></div>
-                            <div><small class="h3">3 mots</small></div>
-                            <div>
-                                <a href="#"><i class="fab fa-github h3"></i></a>
-                                <a href="#"><i class="fab fa-github h3"></i></a>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <!--INDIVIDUAL CONTENT -->
+                        <div class="row justify-content-around">
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <img src="http://via.placeholder.com/120x120" class="rounded-circle img-fluid avatar" alt="#" />
                             </div>
-                            <button type="button" class="btn btn-success">Voir plus</button>
+                            <div class="col-6">
+                                <div><strong class="h2">Anahita</strong></div>
+                                <div><small class="h3">3 mots</small></div>
+                                <div>
+                                    <a href="#"><i class="fab fa-github h3"></i></a>
+                                    <a href="#"><i class="fab fa-github h3"></i></a>
+                                </div>
+                                <!--=========== MODAL WINDOWS ==========-->
+                                <div class="container">
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal-16">Voir plus</button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myModal-16">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Description</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Son côté Wild</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Pour l'avenir</h4>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum,
+                                                    varius tincidunt erat ac, dignissim lobortis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus sodales dictum. Nunc diam nulla, posuere id nibh a, luctus auctor dui. Praesent
+                                                    eu arcu sem. Integer neque est, scelerisque nec nunc quis, finibus tincidunt mi. Morbi elit ipsum, varius tincidunt erat ac, dignissim lobortis tellus.
+
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--=========== END MODAL WINDOWS ==========-->
+                            </div>
                         </div>
+                        <!--FIN INDIVIDUAL CONTENT -->
                     </div>
-                    <!--FIN INDIVIDUAL CONTENT -->
                 </div>
             </div>
         </div>
-        <!-- END LIGNE -->
-    </div>
-    <!--=========== FOOTER ==========-->
-    <footer class="container-fluid color">
-        <div class="row justify-content-center text-center">
+        <!--=========== FOOTER ==========-->
+        <footer class="row justify-content-center text-center">
             <div class="col-12">
                 <a href="https://www.wildcodeschool.fr">Wild Code School</a>
             </div>
@@ -501,8 +1160,8 @@
             <div class="col-12">
                 <p>Made with Love by Wild Code School Reims</p>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

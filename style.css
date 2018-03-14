@@ -91,3 +91,6 @@ footer .rounded-circle:hover {
     margin-top: -87px;
     box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
 }
+.list-group-item {
+    border : none;
+}

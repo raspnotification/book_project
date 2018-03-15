@@ -152,15 +152,7 @@ footer .copyright {
     color: white;
 }
 
-
-
-
-.list-group > a {
-    color: #80cbc4;
-    text-decoration: none;
-}
-
-.list-group > a:hover {
-    color: #498b84;
-    text-decoration: none;
+.image-footer {
+    height: 144px;
+    width: 144px;
 }

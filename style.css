@@ -36,12 +36,6 @@ p {
     height: 50px;
 }
 
-@media (max-width: 576px) {
-    nav .container {
-        width: 100%;
-    }
-}
-
 a {
     color: orange;
 }

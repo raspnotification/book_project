@@ -1,3 +1,19 @@
+h1, h4 {
+    font-family: alwyn-new-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: alwyn-new-web, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .navbar {
     box-shadow: 2px 2px 5px orange;
     opacity: 0.9;
@@ -13,6 +29,11 @@
     width: 50%;
     margin: auto;
     border-bottom: 1px #ddd solid;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 576px) {
@@ -63,18 +84,26 @@ a > .rounded-circle {
 .card {
     box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
 }
+
+h5 {
+    height: 48px;
+}
+
+.card-body .taille {
+    height: 120px;
+}
+
 .card-footer {
     color: black;
 }
 
-footer > a > .rounded-circle {
-    font-size: 2em;
+footer .rounded-circle {
     background: white;
-    padding: 0.3em;
+    color: #498b84;
 }
 
 footer .rounded-circle:hover {
-    background: orange;
+    background: #498b84;
     color: white;
 }
 
@@ -91,6 +120,47 @@ footer .rounded-circle:hover {
     margin-top: -87px;
     box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
 }
+
 .list-group-item {
     border : none;
+}
+
+.list-group > a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+.list-group > a:hover {
+    color: #498b84;
+    text-decoration: none;
+}
+
+span {
+    font-style: italic;
+}
+
+.bg {
+    background: #35383a;
+}
+
+footer h5{
+    color: white;
+    font-size: 1.5em;
+}
+
+footer .copyright {
+    color: white;
+}
+
+
+
+
+.list-group > a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+.list-group > a:hover {
+    color: #498b84;
+    text-decoration: none;
 }

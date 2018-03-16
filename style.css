@@ -75,15 +75,6 @@ a > .rounded-circle {
     padding: 0.3em;
 }
 
-<<<<<<< HEAD
-a {
-    color: orange;
-}
-
-.filter {
-    -webkit-filter: drop-shadow(2px 2px 2px black) opacity(1);
-    filter: drop-shadow(3px 3px 3px black) opacity(1);
-=======
 .card {
     box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
 }
@@ -163,5 +154,18 @@ footer .copyright {
     height: 144px;
     width: 144px;
     margin-top: -72px;
->>>>>>> upstream/develop
+}
+
+.carousel-wild-title {
+    font-size: 5em;
+    color:  orange;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px #000;
+}
+
+.carousel-wild-description {
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px #000; 
 }
